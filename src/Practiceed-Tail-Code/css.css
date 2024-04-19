@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .vk-blue {
+    @apply mt-8 rounded-md bg-blue-100 px-4 py-2 font-medium text-blue-900;
+  }
+  .vk-green {
+    @apply mt-8 rounded-md bg-green-100 px-4 py-2 font-medium text-green-900;
+  }
+  .vk-red {
+    @apply mt-8 rounded-md bg-red-100 px-4 py-2 font-medium text-red-900;
+  }
+}
